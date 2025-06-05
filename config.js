@@ -1,0 +1,2 @@
+export const sites = ["https://google.com", "https://youtube.com", "https://gosuslugi.ru", "https://2ch.su", "https://proton.me", "https://crackmes.one", "https://4chan.org", "https://8kun.top", "https://habr.com"]
+export const api_url = "http://127.0.0.1:8080"
