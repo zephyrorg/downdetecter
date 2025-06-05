@@ -1,11 +1,11 @@
 services:
   downdetecter:
-    image: ghcr.io/zephyrorg/downdetector
+    image: ghcr.io/zephyrorg/downdetector:main
     ports:
       - 80:80
     volumes:
       - ./config.js:/app/config.js
   api:
-    image: ghrc.io/zephyrorg/rcp
+    image: ghrc.io/zephyrorg/rcp:main
     ports:
       - 8080:8080
